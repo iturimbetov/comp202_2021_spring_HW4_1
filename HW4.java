@@ -5,7 +5,6 @@ public class HW4 {
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
 		Graph graph = new Graph();
 				
 		while (scan.hasNextLine()) {
@@ -26,12 +25,12 @@ public class HW4 {
 		//System.out.println(Arrays.deepToString(graph.asArray(false)));
 		//System.out.println(Arrays.deepToString(graph.asArray(true)));
 		
-        HW4 hw4 = new HW4();
+		HW4 hw4 = new HW4();
 		scan.close();
 		
-        System.out.println(hw4.totalLinkCost(graph));
-        System.out.println(hw4.cheapestNetwork(graph.asArray(false)));
-        System.out.println(hw4.savedAmount(graph));
+		System.out.println(hw4.totalLinkCost(graph));
+		System.out.println(hw4.cheapestNetwork(graph.asArray(false)));
+		System.out.println(hw4.savedAmount(graph));
 	
 	}
 	
@@ -40,7 +39,7 @@ public class HW4 {
 	// The method for task 1 
 	int totalLinkCost(Graph graph) {
 		// TODO Auto-generated method stub
-        return 0;
+		return 0;
 	}
 
 	// The method for task 2 
